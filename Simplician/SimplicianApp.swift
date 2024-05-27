@@ -11,7 +11,7 @@ import SwiftUI
 struct SimplicianApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            SceneManager()
         }
     }
 }

@@ -11,6 +11,17 @@
 		356E0A722BF59FCD00A030EC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 356E0A712BF59FCD00A030EC /* ContentView.swift */; };
 		356E0A742BF59FCE00A030EC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 356E0A732BF59FCE00A030EC /* Assets.xcassets */; };
 		356E0A772BF59FCE00A030EC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 356E0A762BF59FCE00A030EC /* Preview Assets.xcassets */; };
+		35E1A2392BFCB16300818A27 /* UkuleleSoundClassifier 3.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 35E1A2382BFCB16300818A27 /* UkuleleSoundClassifier 3.mlmodel */; };
+		35E1A23B2BFD8B0100818A27 /* MicrophoneModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35E1A23A2BFD8B0100818A27 /* MicrophoneModel.swift */; };
+		35E1A23D2BFD8BF200818A27 /* AudioController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35E1A23C2BFD8BF200818A27 /* AudioController.swift */; };
+		35E1A23F2C01043000818A27 /* ChordCView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35E1A23E2C01043000818A27 /* ChordCView.swift */; };
+		35E1A2412C01E70800818A27 /* SceneManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35E1A2402C01E70800818A27 /* SceneManager.swift */; };
+		35E1A2432C01E7CC00818A27 /* ChordAmView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35E1A2422C01E7CC00818A27 /* ChordAmView.swift */; };
+		35E1A2452C01F3FB00818A27 /* ChordCView2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35E1A2442C01F3FB00818A27 /* ChordCView2.swift */; };
+		35E1A2482C02556800818A27 /* ChordGView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35E1A2472C02556800818A27 /* ChordGView.swift */; };
+		35E1A24C2C03BEBD00818A27 /* VideoPlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35E1A24B2C03BEBD00818A27 /* VideoPlayerView.swift */; };
+		35E1A24E2C03C15100818A27 /* Simplician.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 35E1A24D2C03C0A800818A27 /* Simplician.mp4 */; };
+		35E1A2502C03C79700818A27 /* Simplician-2.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 35E1A24F2C03C79700818A27 /* Simplician-2.mp4 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +30,17 @@
 		356E0A712BF59FCD00A030EC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		356E0A732BF59FCE00A030EC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		356E0A762BF59FCE00A030EC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		35E1A2382BFCB16300818A27 /* UkuleleSoundClassifier 3.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = "UkuleleSoundClassifier 3.mlmodel"; sourceTree = SOURCE_ROOT; };
+		35E1A23A2BFD8B0100818A27 /* MicrophoneModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MicrophoneModel.swift; sourceTree = "<group>"; };
+		35E1A23C2BFD8BF200818A27 /* AudioController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AudioController.swift; sourceTree = "<group>"; };
+		35E1A23E2C01043000818A27 /* ChordCView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChordCView.swift; sourceTree = "<group>"; };
+		35E1A2402C01E70800818A27 /* SceneManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneManager.swift; sourceTree = "<group>"; };
+		35E1A2422C01E7CC00818A27 /* ChordAmView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChordAmView.swift; sourceTree = "<group>"; };
+		35E1A2442C01F3FB00818A27 /* ChordCView2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChordCView2.swift; sourceTree = "<group>"; };
+		35E1A2472C02556800818A27 /* ChordGView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChordGView.swift; sourceTree = "<group>"; };
+		35E1A24B2C03BEBD00818A27 /* VideoPlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoPlayerView.swift; sourceTree = "<group>"; };
+		35E1A24D2C03C0A800818A27 /* Simplician.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Simplician.mp4; sourceTree = "<group>"; };
+		35E1A24F2C03C79700818A27 /* Simplician-2.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Simplician-2.mp4"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,8 +74,16 @@
 			isa = PBXGroup;
 			children = (
 				356E0A6F2BF59FCD00A030EC /* SimplicianApp.swift */,
-				356E0A712BF59FCD00A030EC /* ContentView.swift */,
+				35E1A2402C01E70800818A27 /* SceneManager.swift */,
+				35E1A2422C01E7CC00818A27 /* ChordAmView.swift */,
+				35E1A2442C01F3FB00818A27 /* ChordCView2.swift */,
+				35E1A2472C02556800818A27 /* ChordGView.swift */,
+				35E1A24B2C03BEBD00818A27 /* VideoPlayerView.swift */,
+				35E1A2462C02526F00818A27 /* Archive */,
 				356E0A732BF59FCE00A030EC /* Assets.xcassets */,
+				35E1A2382BFCB16300818A27 /* UkuleleSoundClassifier 3.mlmodel */,
+				35E1A24F2C03C79700818A27 /* Simplician-2.mp4 */,
+				35E1A24D2C03C0A800818A27 /* Simplician.mp4 */,
 				356E0A752BF59FCE00A030EC /* Preview Content */,
 			);
 			path = Simplician;
@@ -65,6 +95,17 @@
 				356E0A762BF59FCE00A030EC /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		35E1A2462C02526F00818A27 /* Archive */ = {
+			isa = PBXGroup;
+			children = (
+				35E1A23E2C01043000818A27 /* ChordCView.swift */,
+				356E0A712BF59FCD00A030EC /* ContentView.swift */,
+				35E1A23A2BFD8B0100818A27 /* MicrophoneModel.swift */,
+				35E1A23C2BFD8BF200818A27 /* AudioController.swift */,
+			);
+			path = Archive;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,6 +168,8 @@
 			files = (
 				356E0A772BF59FCE00A030EC /* Preview Assets.xcassets in Resources */,
 				356E0A742BF59FCE00A030EC /* Assets.xcassets in Resources */,
+				35E1A24E2C03C15100818A27 /* Simplician.mp4 in Resources */,
+				35E1A2502C03C79700818A27 /* Simplician-2.mp4 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,8 +180,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				35E1A23D2BFD8BF200818A27 /* AudioController.swift in Sources */,
+				35E1A23F2C01043000818A27 /* ChordCView.swift in Sources */,
+				35E1A2392BFCB16300818A27 /* UkuleleSoundClassifier 3.mlmodel in Sources */,
+				35E1A2412C01E70800818A27 /* SceneManager.swift in Sources */,
+				35E1A2452C01F3FB00818A27 /* ChordCView2.swift in Sources */,
+				35E1A23B2BFD8B0100818A27 /* MicrophoneModel.swift in Sources */,
+				35E1A2432C01E7CC00818A27 /* ChordAmView.swift in Sources */,
+				35E1A2482C02556800818A27 /* ChordGView.swift in Sources */,
 				356E0A722BF59FCD00A030EC /* ContentView.swift in Sources */,
 				356E0A702BF59FCD00A030EC /* SimplicianApp.swift in Sources */,
+				35E1A24C2C03BEBD00818A27 /* VideoPlayerView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,8 +324,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Simplician/Preview Content\"";
+				DEVELOPMENT_TEAM = 34V596585G;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Need mic for this app";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -300,8 +354,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Simplician/Preview Content\"";
+				DEVELOPMENT_TEAM = 34V596585G;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Need mic for this app";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
